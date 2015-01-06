@@ -2,17 +2,22 @@
 
 * Trainer
     *  Input
+
 	    ```python
 		 a = '(S(NP(DT the)(NN boy))(VP(VP(VBD saw)(NP(DT a)(NN girl)))(PP(IN with)(NP(DT a)(NN telescope)))))'
 	     b = '(S(NP(DT the)(NN girl))(VP(VBD saw)(NP(NP(DT a)(NN boy))(PP(IN with)(NP(DT a)(NN telescope)))
 		```
+
     *  Training
+
     	```python
 	   material = [a, b]
 	   trainer = PCFGTrainer('model.bin')
 	   trainer.train(material)
 		```
+
     *  Output
+    
    		 ```python
 		VP#VP PP#  0.333333333333 
 		VP#VBD NP#  0.666666666667 
