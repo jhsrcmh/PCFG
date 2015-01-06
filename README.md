@@ -1,5 +1,11 @@
 ##PCFG Trainer and Parser
 
+* Core algorithm 
+
+    *  The CYK Algorithm
+    *  Inside-Outside algorithm
+    *  Treebank
+
 * Trainer
     *  Input
 
@@ -35,12 +41,6 @@
 		```
 
 * Parser
-
-    The core algorithm: 
-
-    1. The CYK Algorithm
-    2. Inside-Outside algorithm
-    3. Treebank
 
     *  Input
 
