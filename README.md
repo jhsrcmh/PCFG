@@ -58,7 +58,7 @@
     *  Output
 
    		 ```python
-   		 #antomate syntax tagged
+   		#Automatic syntax tagged
 		(S (NP (NP (DT a) (NN boy)) (PP (IN with) (NP (DT a) (NN telescope)))) (VP (VBD saw) (NP (DT a) (NN girl))))
 
 		#maximium value
